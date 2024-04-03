@@ -1,0 +1,178 @@
+@import url("https://use.typekit.net/qjm0aar.css");
+@import url("https://use.typekit.net/qjm0aar.css");
+
+
+body {
+    margin:0;
+    padding:0;
+}
+
+.bodyfr {
+    padding: 5rem;
+    background-color: #34569a;
+}
+
+p {
+    color: #ffffff;
+    font-family: "nimbus-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.7rem;
+}
+
+h1 {
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5rem;
+    margin: 0;
+}
+
+.overlay {
+    /* justify-content: center; */
+    /* position: absolute; */
+    z-index: 0;
+    left: 12px;
+    top: 10px;
+}
+
+#gradient-canvas {
+    --gradient-color-1: #34569a;
+    --gradient-color-2: #222a70;
+    --gradient-color-3: #85a0d2;
+   --gradient-color-4: #c2c87c;
+    -webkit-background-clip: text;
+}
+
+canvas{
+position:absolute;
+left:0;
+top:0;
+z-index:-1;
+width: 100%;
+height: 100%;
+}
+
+.topnav {
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+    background-color: #ffffff00;
+    font-family: "nimbus-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-right: 2rem;
+    padding-top: 1rem;
+}
+
+.topnav a {
+    color: #f2f2f2;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    font-size: 1.75rem;
+}
+
+.topnav a:hover {
+    color: rgb(10, 0, 115); transition: 0.75s;
+}
+
+.topnav a.active {
+    color: rgb(255, 255, 255);
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.button {
+    background-color: #ffffff00;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    border: 2px solid rgb(255, 255, 255);
+    }
+
+    .button4 {
+        border-radius: 40px;
+        font-family: "nimbus-sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        width: 8rem;
+    }
+
+
+    .button:hover {
+    background-color: #ffffff; transition: 0.5s;
+    color: rgb(10, 0, 115);
+    }
+
+
+/* containters */
+.container1{
+    /* display: flex; */
+    /* justify-content: center; */
+    padding-left: 5rem; padding-right: 5rem; padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.container1 > h1 {
+    color: #ffffff;
+}
+
+label {
+    color: #ffffff;
+    font-family: "nimbus-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.7rem;
+  }
+
+.fillout{
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    height: 2.3rem;
+    width: 10rem;
+    border: 3px solid #ccc;
+}
+
+a:active {
+    color: rgb(0, 0, 0);
+}
+
+#outputContainer {
+    background-color: #ffffff;
+    /* width: 100%; */
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+#outputContainer > p{
+    color: black;
+}
+
+.seimg {
+    width: 0px;
+}
+
+.seimg > img{
+    width: 100%;
+}
